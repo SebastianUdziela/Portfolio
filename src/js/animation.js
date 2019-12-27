@@ -14,6 +14,7 @@ let config = {
     rootMargin: '0px',
     threshold: 0.2
   };
+  
 const onChange = (entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting){

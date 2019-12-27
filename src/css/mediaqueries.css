@@ -17,6 +17,9 @@
 }
 
 @media screen and (max-width:890px) {
+    .navigation img {
+        display: none;
+    }
     header .nav_toggle  {
         margin: 0;
         padding: 0;
@@ -65,11 +68,17 @@
         top: -35px!important;
         left: 20px;
     }
+
+    .container_technologies img {
+        margin: 50px!important;
+    }
+
     .single_project a img {
         width: 300px!important;
         height: 200px!important;
     }
 }
+
 
 @media screen and (max-width: 480px) {
     html {

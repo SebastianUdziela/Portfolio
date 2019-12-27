@@ -256,7 +256,6 @@ header .btn_close:hover span::after {
                                 /* technologies */
 
 .technologies {
-    /* border:1px solid red; */
     color:#8c8c8c;
     font-size:20px;
     text-align: center;
@@ -264,6 +263,7 @@ header .btn_close:hover span::after {
     letter-spacing: 5px;
     min-height: 100vh;
 }
+
 .technologies h2 {
     font-weight: 700;
     font-size: 40px;
@@ -296,6 +296,7 @@ header .btn_close:hover span::after {
 .container-projects{
     margin:0 auto
 }
+
 .projects h2 {
     text-align: center;
     font-weight: 700;
@@ -312,6 +313,7 @@ header .btn_close:hover span::after {
     justify-content: space-around;
     margin-top: 130px;
 }
+
 .single_project img {
     width: 500px;
     height: 300px;
@@ -324,9 +326,11 @@ header .btn_close:hover span::after {
     max-height: 300px;
     margin-right:50px
 }
+
 .single_project img:hover {
     transform: scale(1.2);
 }
+
 .projects .project_content {
     width: 40%;
     margin-top: 70px;
@@ -345,6 +349,7 @@ header .btn_close:hover span::after {
     font-size: 30px;
     transition: .3s;
 }
+
 .projects .project_content h2 {
     text-transform: none;
     text-align: left;
@@ -398,6 +403,7 @@ footer {
     border-radius: 50%;
     transition: .3s;
 }
+
 .icon-wrap #github_logo:hover {
     background-color:#2f89fc ;
 }
