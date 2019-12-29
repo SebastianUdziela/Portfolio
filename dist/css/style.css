@@ -342,19 +342,19 @@ header .btn_close:hover span::after {
     color: #8c8c8c;
 }
 
-.projects .project_content h2 a {
+.projects .project_content a  {
     text-decoration: none;
     color:#fff;
     font-size: 30px;
-    transition: .3s;
 }
 
 .projects .project_content h2 {
     text-transform: none;
     text-align: left;
+    transition: .3s;
 }
 
-.projects .project_content a:hover {
+.projects .project_content h2:hover {
     color: #2f89fc;
 }
 
@@ -378,36 +378,36 @@ footer {
     min-height: 50vh;
 }
 
-.icon-wrap {
+.icon_wrap {
     margin-top: 20%;
     text-align: center;
 }
 
-.icon-wrap span {
+.icon_wrap span {
     padding:  20px;
 }
 
-.icon-wrap #github_logo {
+.icon_wrap #github_logo {
     background-color: white;
     text-decoration: none;
 }
 
-.icon-wrap a {
+.icon_wrap a {
     text-decoration: none;
 }
 
-.icon-wrap img {
+.icon_wrap img {
     height: 70px;
     width: 70px;
     border-radius: 50%;
     transition: .3s;
 }
 
-.icon-wrap #github_logo:hover {
+.icon_wrap #github_logo:hover {
     background-color:#2f89fc ;
 }
 
-.icon-wrap img:hover {
+.icon_wrap img:hover {
     background-color: #2f89fc;
 }
 
